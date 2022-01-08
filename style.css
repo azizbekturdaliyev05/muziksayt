@@ -1,0 +1,131 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+  background: #000;
+}
+section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(tu left, #f00,#ff0,z#0fa,rgb(9, 255, 0),#0ff,#00f);
+  mix-blend-mode:color;
+}
+
+
+h1 {
+  color:#fff;
+  font-size: 5em;
+  position:absolute;
+  top: 40px;
+  transform: translateY(-40%);
+  text-align: center;
+  width:100%;
+}
+
+h1 span {
+  display: inline-block;
+  animation: eid 2.5s linear forwards;
+  opacity: 0;
+}
+
+@keyframes eid {
+  0%{
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100%{
+    transform: rotateY(0deg);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+video{
+  height: 100vh;
+}
+.class_1 {
+  
+  top:0%
+  
+}
+
+h1 span:nth-child(5) {
+  animation-delay: 3%;
+  color: red;
+}
+h1 span:nth-child(6) {
+  animation-delay: 3.5%;
+  color: #00f;
+}
+h1 span:nth-child(7) {
+  animation-delay: 4.5%;
+  color: #ff0;
+}
+h1 span:nth-child(8) {
+  animation-delay: 5%;
+  color: #0ff;
+}
+h1 span:nth-child(9) {
+  animation-delay: 6.5%;
+  color: rgb(253, 13, 25);
+}
+h1 span:nth-child(10) {
+  animation-delay: 7.5%;
+  color: rgb(10, 196, 221);
+}
+h1 span:nth-child(11) {
+  animation-delay: 8.5%;
+  color: blue;
+}
+h1 span:nth-child(12) {
+  animation-delay: 9.5%;
+  color: #f00;
+}
+h1 span:nth-child(13) {
+  animation-delay: 10%;
+  color: #ff0;
+}
+h1 span:nth-child(14) {
+  animation-delay: 10.5%;
+  color: #00f;
+}
+h1 span:nth-child(15) {
+  animation-delay: 12.5%;color: #ff0;
+}
+h1 span:nth-child(16) {
+  animation-delay: 13.5%;
+  color: #0ff;
+}
+h1 span:nth-child(17) {
+  animation-delay: 14.5%;
+  color: rgb(25, 100, 10);
+}
+h1 span:nth-child(18) {
+  animation-delay: 14.75%;
+  color: rgba(224, 96, 21, 0.897);
+}
+h1 span:nth-child(19) {
+  animation-delay: 15.5%;
+  color: #0fa;
+}
+h1 span:nth-child(20) {
+  animation-delay: 16.5%;
+  color: rgb(0, 47, 255);
+} 
+h1 span:nth-child(21) {
+  animation-delay: 17.5%;
+  color: #f00;
+} 
+
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
